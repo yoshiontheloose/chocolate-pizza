@@ -1,0 +1,70 @@
+h1 {
+
+}
+h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2em;
+}
+h3 {
+
+}
+p {
+  width: 900px;
+  margin:auto;
+  line-height: 1.5em;
+  font-size: 1.14em;
+  text-indent: 25px;
+  text-align:justify;
+  padding-top: 30px;
+}
+header {
+  display: flex;
+  height: 100px;
+  width:900px;
+  padding: 30px 150px 30px 150px;
+}
+body {
+  text-align: center;
+  margin: 0px 10% 0px 10%;
+}
+footer {
+
+}
+
+button {
+  background-color: rgb(188,112,88);
+}
+#recipe {
+  background-image: url(chocolatePizzaAssets/lab-assets/list-bg.png);
+  width:835px;
+  height: 265px;
+  display:flex;
+  padding:40px 0px 0px 65px;
+  margin:auto;
+
+}
+ul {
+  text-align:left;
+  font-size: 1.5em;
+  line-height: 30px;
+  font-family: 'Delius', sans-serif;
+  max-height: 200px;
+}
+#column1 {
+  width: 40%;
+}
+#column2 {
+  width:45%;
+}
+.kookyText {
+  font-size: 0.5em;
+}
+#socials {
+  
+}
+#blogTitle img {
+  float: left;
+}
+#pizza {
+  padding: 30px 150px 30px 150px;
+}
