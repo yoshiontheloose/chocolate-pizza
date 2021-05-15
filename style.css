@@ -1,13 +1,23 @@
 h1 {
-
+  font-weight: bold;
+  font-family: 'Oswald', arial;
+  text-align: left;
+  font-size: 1.8em;
+  padding-top: 10px;
+  
 }
 h2 {
   font-family: 'Yellowtail', cursive;
   font-size: 2em;
 }
-h3 {
 
+.footername {
+  font-size: 1.3em;
+  width: 250px;
+  height: 40px;
+  text-align: left;
 }
+
 p {
   width: 900px;
   margin:auto;
@@ -19,9 +29,10 @@ p {
 }
 header {
   display: flex;
-  height: 100px;
+  height: 50px;
   width:900px;
-  padding: 30px 150px 30px 150px;
+  padding: 25px 0px 20px 0px;
+  border-bottom: red solid 5px;
 }
 body {
   text-align: center;
@@ -29,6 +40,22 @@ body {
 }
 footer {
 
+}
+
+.faded {
+  text-align: center;
+  padding: 0px;
+}
+
+footer article {
+  display: flex;
+  height: 90px;
+  width: 900px;
+  margin: 25px 0px 80px 0px;
+}
+
+footer img {
+  margin-bottom: 30px;
 }
 
 button {
@@ -58,13 +85,67 @@ ul {
 }
 .kookyText {
   font-size: 0.5em;
+  padding: 0px;
+  width: 200px;
+  text-align: justify;
+  position: relative;
+  top: 1px;
+  left: 1px;
+  text-indent: 0px;
 }
 #socials {
-  
+  display: flex;
+  width: 220px;
+  margin-left: 465px; 
+  margin-top: 15px;
 }
+.socialimage {  
+  height: 24px;
+  width: 24px;
+  padding: 1px
+}
+
+#pint {
+  padding: 1px 9px 1px 0px;
+  height: 24px;
+  width: 24px;
+}
+
+#white {
+  height: 24px;
+  width: 24px;
+  padding: 1px 1px 1px 0px;
+}
+
+#blogTitle {
+  width: 220px;
+  height: 50px;
+  text-align: left;
+}
+
 #blogTitle img {
   float: left;
-}
+  }
 #pizza {
-  padding: 30px 150px 30px 150px;
+  float: right;
+}
+
+.greyText {
+  padding: 1px;
+  text-align: left;
+  text-indent: 0px;
+  font-size: .70em;
+}
+
+.print {
+  float: right;
+  width: 200px;
+  padding: 0px;
+  text-align: right;
+}
+
+button {
+  float: right;
+  width: 185px;
+  height: 55px;
 }
